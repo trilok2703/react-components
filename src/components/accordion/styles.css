@@ -1,0 +1,44 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.multi-selection {
+    margin: 5px 0;
+    padding: 20px 30px;
+    background-color: aquamarine;
+    font-weight: 600;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content {
+    width: 500px;
+}
+
+.title {
+    margin: 5px 0;
+    padding: 20px 30px;
+    background-color: aquamarine;
+    font-weight: 600;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+}
+
+.accordion-icon {
+    padding-left: 10px;
+}
+
+.answer {
+    text-align: left;
+    margin: 5px 0;
+    padding: 20px 30px;
+    background: rgba(127,255,212,0.5);
+    transition: all 10s ease-in;
+}
